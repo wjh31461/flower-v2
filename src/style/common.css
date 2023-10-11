@@ -1,0 +1,23 @@
+html {
+	font: normal normal 14px '微软雅黑','Microsoft YaHei';
+	color: #333;
+}
+body,ul,ol,dl,p,h1,h2,h3 {
+	margin: 0;
+	padding: 0;
+}
+ul,ol {
+	list-style: none;
+}
+a {
+	color: #666;
+	text-decoration: none;
+}
+div {
+	box-sizing: border-box;
+}
+.wrapper {
+	width: calc(100vw - 100px);
+	min-width: 1200px;
+	margin: 0 auto;
+}
