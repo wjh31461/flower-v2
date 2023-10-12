@@ -12,12 +12,16 @@ ul,ol {
 a {
 	color: #666;
 	text-decoration: none;
+	cursor: pointer
+}
+a:hover {
+	color: red;
 }
 div {
 	box-sizing: border-box;
 }
 .wrapper {
-	width: calc(100vw - 100px);
-	min-width: 1200px;
+	/* width: calc(100vw - 100px); */
+	min-width: 800px;
 	margin: 0 auto;
 }

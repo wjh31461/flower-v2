@@ -18,6 +18,9 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+#normalLayout {
+  max-width: 1440px;
+  margin: 0 auto;
+}
 </style>

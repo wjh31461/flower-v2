@@ -1,6 +1,5 @@
 <template>
   <div id="nav-header">
-    <div class="wrapper">
       <div class="left">
         <span class="header-item">
           <router-link to="/login" class="login">请登录</router-link>
@@ -39,7 +38,6 @@
           我是商家
         </span>
       </div>
-    </div>
     
   </div>
 </template>
