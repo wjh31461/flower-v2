@@ -1,26 +1,25 @@
 <template>
   <div id="normalLayout">
-    <nav-header></nav-header>
-    <search></search>
-    <router-view></router-view>
-    <nav-footer></nav-footer>
+    <nav-header />
+    <top-search />
+    <router-view />
+    <nav-footer />
   </div>
   
 </template>
 
 <script>
 import navHeader from '@/components/header'
-import search from '@/components/search'
+import topSearch from '@/components/topSearch'
 import navFooter from '@/components/footer'
 
 export default {
-  components: { navHeader, search, navFooter }
+  components: { navHeader, topSearch, navFooter }
 }
 </script>
 
 <style scoped>
 #normalLayout {
-  max-width: 1440px;
   margin: 0 auto;
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
   <div id="registry">
-    registry
+    注册
   </div>
 </template>
