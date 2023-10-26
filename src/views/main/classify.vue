@@ -56,6 +56,9 @@ export default {
 
 <style scoped lang="less">
 #classify {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   height: 300px;
   padding: 20px;
   border-radius: 16px;
@@ -66,7 +69,7 @@ export default {
     // margin-bottom: 10px;
   }
   .classifyWrapper {
-    margin: 10px 0;
+    // margin: 10px 0;
     .classifyItemTitle {
       margin-bottom: 6px;
       font-size: 16px;

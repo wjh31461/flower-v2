@@ -35,10 +35,18 @@
         </router-link>
       </span>
       <span class="header-item">
-        <router-link to="/favorites">
-          <i class="el-icon-star-on" style="color: orange;"></i>
-          收藏夹
-        </router-link>
+        <el-dropdown placement="bottom" @command="handleCommand">
+          <span class="el-dropdown-link">
+            <i class="el-icon-star-on"></i>
+            收藏夹
+            <i class="el-icon-arrow-down el-icon--right"></i>
+          </span>
+          <el-dropdown-menu slot="dropdown">
+            <!-- 收藏夹 -->
+            <el-dropdown-item command="/favorites">收藏的店铺</el-dropdown-item>
+            <el-dropdown-item command="/favorites">收藏的宝贝</el-dropdown-item>
+          </el-dropdown-menu>
+        </el-dropdown>
       </span>
       <span class="header-item">
         <!-- TODO 我是商家 -->

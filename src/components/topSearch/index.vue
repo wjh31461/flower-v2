@@ -46,7 +46,7 @@ export default {
 <style scoped lang="less">
 #search {
   display: flex;
-  margin-top: 20px;
+  // margin-top: 20px;
 
   .logoImg {
     margin: 0 auto;

@@ -12,7 +12,6 @@
       </el-col>
     </el-row>
     
-    
     <recommend></recommend>
   </div>
 </template>
@@ -29,5 +28,7 @@ export default {
 </script>
 
 <style scoped>
-
+#mainPage {
+  margin-top: 40px;
+}
 </style>
